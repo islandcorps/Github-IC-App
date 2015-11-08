@@ -16,6 +16,7 @@
 		B58C55931BEEFB6A00DF31DF /* Island_CorpsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C55921BEEFB6A00DF31DF /* Island_CorpsTests.swift */; };
 		B58C559E1BEEFB6A00DF31DF /* Island_CorpsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C559D1BEEFB6A00DF31DF /* Island_CorpsUITests.swift */; };
 		B5FA94751BEF7D60006ED420 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5FA94741BEF7D60006ED420 /* Main.storyboard */; };
+		B5FA94771BEF8A02006ED420 /* Github-IC-App in Resources */ = {isa = PBXBuildFile; fileRef = B5FA94761BEF8A02006ED420 /* Github-IC-App */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B58C559D1BEEFB6A00DF31DF /* Island_CorpsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island_CorpsUITests.swift; sourceTree = "<group>"; };
 		B58C559F1BEEFB6A00DF31DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5FA94741BEF7D60006ED420 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		B5FA94761BEF8A02006ED420 /* Github-IC-App */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Github-IC-App"; path = "../../Github-IC-App"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				B58C557D1BEEFB6A00DF31DF /* AppDelegate.swift */,
 				B5FA94741BEF7D60006ED420 /* Main.storyboard */,
+				B5FA94761BEF8A02006ED420 /* Github-IC-App */,
 				B58C55861BEEFB6A00DF31DF /* LaunchScreen.storyboard */,
 				AF9F69231BEF12DE007C6633 /* IslandCorps-LOGO_Color 2.png */,
 				B58C557F1BEEFB6A00DF31DF /* ViewController.swift */,
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B58C55881BEEFB6A00DF31DF /* LaunchScreen.storyboard in Resources */,
+				B5FA94771BEF8A02006ED420 /* Github-IC-App in Resources */,
 				B5FA94751BEF7D60006ED420 /* Main.storyboard in Resources */,
 				B58C55851BEEFB6A00DF31DF /* Assets.xcassets in Resources */,
 				AF9F69241BEF12DE007C6633 /* IslandCorps-LOGO_Color 2.png in Resources */,
