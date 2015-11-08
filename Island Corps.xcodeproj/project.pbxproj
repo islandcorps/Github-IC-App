@@ -11,11 +11,11 @@
 		AF9F692A1BEF3334007C6633 /* IC Mobile App in Resources */ = {isa = PBXBuildFile; fileRef = AF9F69291BEF3334007C6633 /* IC Mobile App */; };
 		B58C557E1BEEFB6A00DF31DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C557D1BEEFB6A00DF31DF /* AppDelegate.swift */; };
 		B58C55801BEEFB6A00DF31DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C557F1BEEFB6A00DF31DF /* ViewController.swift */; };
-		B58C55831BEEFB6A00DF31DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58C55811BEEFB6A00DF31DF /* Main.storyboard */; };
 		B58C55851BEEFB6A00DF31DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B58C55841BEEFB6A00DF31DF /* Assets.xcassets */; };
 		B58C55881BEEFB6A00DF31DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58C55861BEEFB6A00DF31DF /* LaunchScreen.storyboard */; };
 		B58C55931BEEFB6A00DF31DF /* Island_CorpsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C55921BEEFB6A00DF31DF /* Island_CorpsTests.swift */; };
 		B58C559E1BEEFB6A00DF31DF /* Island_CorpsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C559D1BEEFB6A00DF31DF /* Island_CorpsUITests.swift */; };
+		B5FA94751BEF7D60006ED420 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5FA94741BEF7D60006ED420 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		B58C557A1BEEFB6900DF31DF /* Island Corps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Island Corps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58C557D1BEEFB6A00DF31DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B58C557F1BEEFB6A00DF31DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B58C55821BEEFB6A00DF31DF /* Base */ = {isa = PBXFileReference; explicitFileType = image.png; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B58C55841BEEFB6A00DF31DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B58C55871BEEFB6A00DF31DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B58C55891BEEFB6A00DF31DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		B58C55991BEEFB6A00DF31DF /* Island CorpsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Island CorpsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58C559D1BEEFB6A00DF31DF /* Island_CorpsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island_CorpsUITests.swift; sourceTree = "<group>"; };
 		B58C559F1BEEFB6A00DF31DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5FA94741BEF7D60006ED420 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +101,10 @@
 		B58C557C1BEEFB6900DF31DF /* Island Corps */ = {
 			isa = PBXGroup;
 			children = (
+				B5FA94741BEF7D60006ED420 /* Main.storyboard */,
 				B58C557D1BEEFB6A00DF31DF /* AppDelegate.swift */,
 				AF9F69231BEF12DE007C6633 /* IslandCorps-LOGO_Color 2.png */,
 				B58C557F1BEEFB6A00DF31DF /* ViewController.swift */,
-				B58C55811BEEFB6A00DF31DF /* Main.storyboard */,
 				B58C55841BEEFB6A00DF31DF /* Assets.xcassets */,
 				B58C55861BEEFB6A00DF31DF /* LaunchScreen.storyboard */,
 				B58C55891BEEFB6A00DF31DF /* Info.plist */,
@@ -236,8 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B58C55881BEEFB6A00DF31DF /* LaunchScreen.storyboard in Resources */,
+				B5FA94751BEF7D60006ED420 /* Main.storyboard in Resources */,
 				B58C55851BEEFB6A00DF31DF /* Assets.xcassets in Resources */,
-				B58C55831BEEFB6A00DF31DF /* Main.storyboard in Resources */,
 				AF9F69241BEF12DE007C6633 /* IslandCorps-LOGO_Color 2.png in Resources */,
 				AF9F692A1BEF3334007C6633 /* IC Mobile App in Resources */,
 			);
@@ -301,14 +301,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B58C55811BEEFB6A00DF31DF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B58C55821BEEFB6A00DF31DF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B58C55861BEEFB6A00DF31DF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
