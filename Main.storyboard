@@ -17,26 +17,38 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="srJ-cJ-5Fh">
-                                <rect key="frame" x="161" y="413" width="42" height="30"/>
-                                <state key="normal" title="Log In"/>
+                                <rect key="frame" x="129" y="416" width="101" height="30"/>
+                                <state key="normal" title="Traveler Log In"/>
                                 <connections>
                                     <segue destination="qll-2I-wWX" kind="show" id="wzn-nt-pjE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1s-DJ-BIT">
-                                <rect key="frame" x="75" y="494" width="215" height="30"/>
-                                <state key="normal" title="About    travel@islandcorps.org"/>
+                                <rect key="frame" x="62" y="494" width="241" height="30"/>
+                                <state key="normal" title="About Us    Travel@islandcorps.org"/>
                                 <connections>
                                     <segue destination="Jxn-Zd-59N" kind="show" id="Qmj-wC-nh0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="um7-l6-oSu">
-                                <rect key="frame" x="156" y="345" width="55" height="30"/>
-                                <state key="normal" title="Sign Up"/>
+                                <rect key="frame" x="96" y="344" width="176" height="30"/>
+                                <state key="normal" title="New Traveler Registration"/>
                                 <connections>
                                     <segue destination="xII-od-u3O" kind="show" id="N7d-BN-l4W"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IslandCorps-LOGO_Color 2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Acg-U3-X3w">
+                                <rect key="frame" x="23" y="7" width="162" height="157"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="palm-shore.png" translatesAutoresizingMaskIntoConstraints="NO" id="gp5-ig-hbm">
+                                <rect key="frame" x="193" y="48" width="158" height="115"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hammock.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cxd-dV-7th">
+                                <rect key="frame" x="193" y="171" width="158" height="115"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pool.png" translatesAutoresizingMaskIntoConstraints="NO" id="8d0-yi-OnA">
+                                <rect key="frame" x="28" y="171" width="146" height="115"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -45,7 +57,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lip-uB-AmO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="273" y="399"/>
+            <point key="canvasLocation" x="272.5" y="399"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jXs-Gc-xRL">
@@ -394,6 +406,12 @@
             <point key="canvasLocation" x="965" y="537"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="IslandCorps-LOGO_Color 2.png" width="2100" height="2100"/>
+        <image name="hammock.png" width="3264" height="2448"/>
+        <image name="palm-shore.png" width="2448" height="2448"/>
+        <image name="pool.png" width="3872" height="2592"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="byc-4k-nUi"/>
     </inferredMetricsTieBreakers>
