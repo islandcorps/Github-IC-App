@@ -15,12 +15,80 @@
                     <view key="view" contentMode="scaleToFill" id="cxJ-OG-5qz">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="um7-l6-oSu">
+                                <rect key="frame" x="273" y="430" width="55" height="30"/>
+                                <state key="normal" title="Sign Up"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="srJ-cJ-5Fh">
+                                <rect key="frame" x="279" y="478" width="42" height="30"/>
+                                <state key="normal" title="Log In"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1s-DJ-BIT">
+                                <rect key="frame" x="160" y="532" width="399" height="30"/>
+                                <state key="normal" title="About                                                  travel@islandcorps.org"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lip-uB-AmO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="277" y="389"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jXs-Gc-xRL">
+            <objects>
+                <viewController id="Jxn-Zd-59N" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="syM-59-CEI"/>
+                        <viewControllerLayoutGuide type="bottom" id="CoW-Ep-LSq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NYP-OB-FkD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xeu-UA-8Uc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="473" y="1205"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="3eg-qe-Hmv">
+            <objects>
+                <viewController id="xII-od-u3O" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tSy-GX-X5R"/>
+                        <viewControllerLayoutGuide type="bottom" id="ocp-wP-Ah9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="f3e-v0-ipP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OGA-gO-Q8w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="953" y="-160"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="iTN-Ho-Y4w">
+            <objects>
+                <viewController id="qll-2I-wWX" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uAi-bb-ZlY"/>
+                        <viewControllerLayoutGuide type="bottom" id="a1r-Ou-0cL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zlG-GQ-791">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d7d-0q-MsF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="965" y="537"/>
         </scene>
     </scenes>
 </document>
