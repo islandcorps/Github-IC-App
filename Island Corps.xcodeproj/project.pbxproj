@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B58C557E1BEEFB6A00DF31DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C557D1BEEFB6A00DF31DF /* AppDelegate.swift */; };
+		B58C55801BEEFB6A00DF31DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C557F1BEEFB6A00DF31DF /* ViewController.swift */; };
+		B58C55831BEEFB6A00DF31DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58C55811BEEFB6A00DF31DF /* Main.storyboard */; };
+		B58C55851BEEFB6A00DF31DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B58C55841BEEFB6A00DF31DF /* Assets.xcassets */; };
+		B58C55881BEEFB6A00DF31DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58C55861BEEFB6A00DF31DF /* LaunchScreen.storyboard */; };
+		B58C55931BEEFB6A00DF31DF /* Island_CorpsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C55921BEEFB6A00DF31DF /* Island_CorpsTests.swift */; };
+		B58C559E1BEEFB6A00DF31DF /* Island_CorpsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C559D1BEEFB6A00DF31DF /* Island_CorpsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B58C558F1BEEFB6A00DF31DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B58C55721BEEFB6900DF31DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B58C55791BEEFB6900DF31DF;
+			remoteInfo = "Island Corps";
+		};
+		B58C559A1BEEFB6A00DF31DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B58C55721BEEFB6900DF31DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B58C55791BEEFB6900DF31DF;
+			remoteInfo = "Island Corps";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B58C557A1BEEFB6900DF31DF /* Island Corps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Island Corps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58C557D1BEEFB6A00DF31DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B58C557F1BEEFB6A00DF31DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B58C55821BEEFB6A00DF31DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B58C55841BEEFB6A00DF31DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B58C55871BEEFB6A00DF31DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B58C55891BEEFB6A00DF31DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B58C558E1BEEFB6A00DF31DF /* Island CorpsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Island CorpsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58C55921BEEFB6A00DF31DF /* Island_CorpsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island_CorpsTests.swift; sourceTree = "<group>"; };
+		B58C55941BEEFB6A00DF31DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B58C55991BEEFB6A00DF31DF /* Island CorpsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Island CorpsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58C559D1BEEFB6A00DF31DF /* Island_CorpsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island_CorpsUITests.swift; sourceTree = "<group>"; };
+		B58C559F1BEEFB6A00DF31DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B58C55771BEEFB6900DF31DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B58C558B1BEEFB6A00DF31DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B58C55961BEEFB6A00DF31DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B58C55711BEEFB6900DF31DF = {
+			isa = PBXGroup;
+			children = (
+				B58C557C1BEEFB6900DF31DF /* Island Corps */,
+				B58C55911BEEFB6A00DF31DF /* Island CorpsTests */,
+				B58C559C1BEEFB6A00DF31DF /* Island CorpsUITests */,
+				B58C557B1BEEFB6900DF31DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B58C557B1BEEFB6900DF31DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B58C557A1BEEFB6900DF31DF /* Island Corps.app */,
+				B58C558E1BEEFB6A00DF31DF /* Island CorpsTests.xctest */,
+				B58C55991BEEFB6A00DF31DF /* Island CorpsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B58C557C1BEEFB6900DF31DF /* Island Corps */ = {
+			isa = PBXGroup;
+			children = (
+				B58C557D1BEEFB6A00DF31DF /* AppDelegate.swift */,
+				B58C557F1BEEFB6A00DF31DF /* ViewController.swift */,
+				B58C55811BEEFB6A00DF31DF /* Main.storyboard */,
+				B58C55841BEEFB6A00DF31DF /* Assets.xcassets */,
+				B58C55861BEEFB6A00DF31DF /* LaunchScreen.storyboard */,
+				B58C55891BEEFB6A00DF31DF /* Info.plist */,
+			);
+			path = "Island Corps";
+			sourceTree = "<group>";
+		};
+		B58C55911BEEFB6A00DF31DF /* Island CorpsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B58C55921BEEFB6A00DF31DF /* Island_CorpsTests.swift */,
+				B58C55941BEEFB6A00DF31DF /* Info.plist */,
+			);
+			path = "Island CorpsTests";
+			sourceTree = "<group>";
+		};
+		B58C559C1BEEFB6A00DF31DF /* Island CorpsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B58C559D1BEEFB6A00DF31DF /* Island_CorpsUITests.swift */,
+				B58C559F1BEEFB6A00DF31DF /* Info.plist */,
+			);
+			path = "Island CorpsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B58C55791BEEFB6900DF31DF /* Island Corps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B58C55A21BEEFB6A00DF31DF /* Build configuration list for PBXNativeTarget "Island Corps" */;
+			buildPhases = (
+				B58C55761BEEFB6900DF31DF /* Sources */,
+				B58C55771BEEFB6900DF31DF /* Frameworks */,
+				B58C55781BEEFB6900DF31DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Island Corps";
+			productName = "Island Corps";
+			productReference = B58C557A1BEEFB6900DF31DF /* Island Corps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B58C558D1BEEFB6A00DF31DF /* Island CorpsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B58C55A51BEEFB6A00DF31DF /* Build configuration list for PBXNativeTarget "Island CorpsTests" */;
+			buildPhases = (
+				B58C558A1BEEFB6A00DF31DF /* Sources */,
+				B58C558B1BEEFB6A00DF31DF /* Frameworks */,
+				B58C558C1BEEFB6A00DF31DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B58C55901BEEFB6A00DF31DF /* PBXTargetDependency */,
+			);
+			name = "Island CorpsTests";
+			productName = "Island CorpsTests";
+			productReference = B58C558E1BEEFB6A00DF31DF /* Island CorpsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B58C55981BEEFB6A00DF31DF /* Island CorpsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B58C55A81BEEFB6A00DF31DF /* Build configuration list for PBXNativeTarget "Island CorpsUITests" */;
+			buildPhases = (
+				B58C55951BEEFB6A00DF31DF /* Sources */,
+				B58C55961BEEFB6A00DF31DF /* Frameworks */,
+				B58C55971BEEFB6A00DF31DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B58C559B1BEEFB6A00DF31DF /* PBXTargetDependency */,
+			);
+			name = "Island CorpsUITests";
+			productName = "Island CorpsUITests";
+			productReference = B58C55991BEEFB6A00DF31DF /* Island CorpsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B58C55721BEEFB6900DF31DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Island Corps";
+				TargetAttributes = {
+					B58C55791BEEFB6900DF31DF = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					B58C558D1BEEFB6A00DF31DF = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = B58C55791BEEFB6900DF31DF;
+					};
+					B58C55981BEEFB6A00DF31DF = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = B58C55791BEEFB6900DF31DF;
+					};
+				};
+			};
+			buildConfigurationList = B58C55751BEEFB6900DF31DF /* Build configuration list for PBXProject "Island Corps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B58C55711BEEFB6900DF31DF;
+			productRefGroup = B58C557B1BEEFB6900DF31DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B58C55791BEEFB6900DF31DF /* Island Corps */,
+				B58C558D1BEEFB6A00DF31DF /* Island CorpsTests */,
+				B58C55981BEEFB6A00DF31DF /* Island CorpsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B58C55781BEEFB6900DF31DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58C55881BEEFB6A00DF31DF /* LaunchScreen.storyboard in Resources */,
+				B58C55851BEEFB6A00DF31DF /* Assets.xcassets in Resources */,
+				B58C55831BEEFB6A00DF31DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B58C558C1BEEFB6A00DF31DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B58C55971BEEFB6A00DF31DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B58C55761BEEFB6900DF31DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58C55801BEEFB6A00DF31DF /* ViewController.swift in Sources */,
+				B58C557E1BEEFB6A00DF31DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B58C558A1BEEFB6A00DF31DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58C55931BEEFB6A00DF31DF /* Island_CorpsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B58C55951BEEFB6A00DF31DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58C559E1BEEFB6A00DF31DF /* Island_CorpsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B58C55901BEEFB6A00DF31DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B58C55791BEEFB6900DF31DF /* Island Corps */;
+			targetProxy = B58C558F1BEEFB6A00DF31DF /* PBXContainerItemProxy */;
+		};
+		B58C559B1BEEFB6A00DF31DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B58C55791BEEFB6900DF31DF /* Island Corps */;
+			targetProxy = B58C559A1BEEFB6A00DF31DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B58C55811BEEFB6A00DF31DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B58C55821BEEFB6A00DF31DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B58C55861BEEFB6A00DF31DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B58C55871BEEFB6A00DF31DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B58C55A01BEEFB6A00DF31DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B58C55A11BEEFB6A00DF31DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B58C55A31BEEFB6A00DF31DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Island Corps/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IC-Mobile.Island-Corps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B58C55A41BEEFB6A00DF31DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Island Corps/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IC-Mobile.Island-Corps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B58C55A61BEEFB6A00DF31DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Island CorpsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IC-Mobile.Island-CorpsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Island Corps.app/Island Corps";
+			};
+			name = Debug;
+		};
+		B58C55A71BEEFB6A00DF31DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Island CorpsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IC-Mobile.Island-CorpsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Island Corps.app/Island Corps";
+			};
+			name = Release;
+		};
+		B58C55A91BEEFB6A00DF31DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Island CorpsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IC-Mobile.Island-CorpsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Island Corps";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B58C55AA1BEEFB6A00DF31DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Island CorpsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IC-Mobile.Island-CorpsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Island Corps";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B58C55751BEEFB6900DF31DF /* Build configuration list for PBXProject "Island Corps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B58C55A01BEEFB6A00DF31DF /* Debug */,
+				B58C55A11BEEFB6A00DF31DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B58C55A21BEEFB6A00DF31DF /* Build configuration list for PBXNativeTarget "Island Corps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B58C55A31BEEFB6A00DF31DF /* Debug */,
+				B58C55A41BEEFB6A00DF31DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B58C55A51BEEFB6A00DF31DF /* Build configuration list for PBXNativeTarget "Island CorpsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B58C55A61BEEFB6A00DF31DF /* Debug */,
+				B58C55A71BEEFB6A00DF31DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B58C55A81BEEFB6A00DF31DF /* Build configuration list for PBXNativeTarget "Island CorpsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B58C55A91BEEFB6A00DF31DF /* Debug */,
+				B58C55AA1BEEFB6A00DF31DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B58C55721BEEFB6900DF31DF /* Project object */;
+}
