@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AF9F69241BEF12DE007C6633 /* IslandCorps-LOGO_Color 2.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9F69231BEF12DE007C6633 /* IslandCorps-LOGO_Color 2.png */; };
 		AF9F692A1BEF3334007C6633 /* IC Mobile App in Resources */ = {isa = PBXBuildFile; fileRef = AF9F69291BEF3334007C6633 /* IC Mobile App */; };
+		AFB9EFAD1BEFA41E003D9AB9 /* apples.png in Resources */ = {isa = PBXBuildFile; fileRef = AFB9EFAC1BEFA41E003D9AB9 /* apples.png */; };
 		B58C557E1BEEFB6A00DF31DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C557D1BEEFB6A00DF31DF /* AppDelegate.swift */; };
 		B58C55801BEEFB6A00DF31DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C557F1BEEFB6A00DF31DF /* ViewController.swift */; };
 		B58C55851BEEFB6A00DF31DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B58C55841BEEFB6A00DF31DF /* Assets.xcassets */; };
@@ -36,8 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AF9F69231BEF12DE007C6633 /* IslandCorps-LOGO_Color 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IslandCorps-LOGO_Color 2.png"; path = "../../IC Mobile App/IC Mobile LOGO/IslandCorps-LOGO_Color 2.png"; sourceTree = "<group>"; };
+		AF9F69231BEF12DE007C6633 /* IslandCorps-LOGO_Color 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IslandCorps-LOGO_Color 2.png"; path = "../IC Mobile Images/IC Mobile LOGO/IslandCorps-LOGO_Color 2.png"; sourceTree = "<group>"; };
 		AF9F69291BEF3334007C6633 /* IC Mobile App */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "IC Mobile App"; path = "../../../Desktop/IC Mobile App"; sourceTree = "<group>"; };
+		AFB9EFAC1BEFA41E003D9AB9 /* apples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apples.png; sourceTree = "<group>"; };
 		B58C557A1BEEFB6900DF31DF /* Island Corps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Island Corps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58C557D1BEEFB6A00DF31DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B58C557F1BEEFB6A00DF31DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		B58C55711BEEFB6900DF31DF = {
 			isa = PBXGroup;
 			children = (
+				AFB9EFAC1BEFA41E003D9AB9 /* apples.png */,
 				B58C557C1BEEFB6900DF31DF /* Island Corps */,
 				B58C55911BEEFB6A00DF31DF /* Island CorpsTests */,
 				B58C559C1BEEFB6A00DF31DF /* Island CorpsUITests */,
@@ -239,6 +242,7 @@
 				B5FA94751BEF7D60006ED420 /* Main.storyboard in Resources */,
 				B58C55851BEEFB6A00DF31DF /* Assets.xcassets in Resources */,
 				AF9F69241BEF12DE007C6633 /* IslandCorps-LOGO_Color 2.png in Resources */,
+				AFB9EFAD1BEFA41E003D9AB9 /* apples.png in Resources */,
 				AF9F692A1BEF3334007C6633 /* IC Mobile App in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
