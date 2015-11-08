@@ -100,10 +100,10 @@
 			isa = PBXGroup;
 			children = (
 				B58C557D1BEEFB6A00DF31DF /* AppDelegate.swift */,
+				AF9F69231BEF12DE007C6633 /* IslandCorps-LOGO_Color 2.png */,
 				B58C557F1BEEFB6A00DF31DF /* ViewController.swift */,
 				B58C55811BEEFB6A00DF31DF /* Main.storyboard */,
 				B58C55841BEEFB6A00DF31DF /* Assets.xcassets */,
-				AF9F69231BEF12DE007C6633 /* IslandCorps-LOGO_Color 2.png */,
 				B58C55861BEEFB6A00DF31DF /* LaunchScreen.storyboard */,
 				B58C55891BEEFB6A00DF31DF /* Info.plist */,
 			);
