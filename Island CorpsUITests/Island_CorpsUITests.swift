@@ -2,7 +2,7 @@
 //  Island_CorpsUITests.swift
 //  Island CorpsUITests
 //
-//  Created by Daniella Otarola on 11/7/15.
+//  Created by Island Corps on 11/7/15.
 //  Copyright © 2015 Island Corps. All rights reserved.
 //
 

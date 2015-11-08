@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Island Corps
 //
-//  Created by Daniella Otarola on 11/7/15.
+//  Created by IslandCorps on 11/7/15.
 //  Copyright © 2015 Island Corps. All rights reserved.
 //
 
@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var logInButton: UIButton!
+    @IBOutlet weak var signUpButton: UIButton!
+    @IBOutlet weak var aboutButton: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
