@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AF9F69231BEF12DE007C6633 /* IslandCorps-LOGO_Color 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IslandCorps-LOGO_Color 2.png"; path = "../../../Desktop/IC Mobile App/IC Mobile LOGO/IslandCorps-LOGO_Color 2.png"; sourceTree = "<group>"; };
+		AF9F69231BEF12DE007C6633 /* IslandCorps-LOGO_Color 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IslandCorps-LOGO_Color 2.png"; path = "../../IC Mobile App/IC Mobile LOGO/IslandCorps-LOGO_Color 2.png"; sourceTree = "<group>"; };
 		AF9F69291BEF3334007C6633 /* IC Mobile App */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "IC Mobile App"; path = "../../../Desktop/IC Mobile App"; sourceTree = "<group>"; };
 		B58C557A1BEEFB6900DF31DF /* Island Corps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Island Corps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58C557D1BEEFB6A00DF31DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
