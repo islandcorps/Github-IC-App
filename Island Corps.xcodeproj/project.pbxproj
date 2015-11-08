@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AF9F69241BEF12DE007C6633 /* IslandCorps-LOGO_Color 2.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9F69231BEF12DE007C6633 /* IslandCorps-LOGO_Color 2.png */; };
+		AF9F692A1BEF3334007C6633 /* IC Mobile App in Resources */ = {isa = PBXBuildFile; fileRef = AF9F69291BEF3334007C6633 /* IC Mobile App */; };
 		B58C557E1BEEFB6A00DF31DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C557D1BEEFB6A00DF31DF /* AppDelegate.swift */; };
 		B58C55801BEEFB6A00DF31DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C557F1BEEFB6A00DF31DF /* ViewController.swift */; };
 		B58C55831BEEFB6A00DF31DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58C55811BEEFB6A00DF31DF /* Main.storyboard */; };
@@ -35,7 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AF9F69231BEF12DE007C6633 /* IslandCorps-LOGO_Color 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IslandCorps-LOGO_Color 2.png"; path = "../IC Mobile Images/IC Mobile LOGO/IslandCorps-LOGO_Color 2.png"; sourceTree = "<group>"; };
+		AF9F69231BEF12DE007C6633 /* IslandCorps-LOGO_Color 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IslandCorps-LOGO_Color 2.png"; path = "../../../Desktop/IC Mobile App/IC Mobile LOGO/IslandCorps-LOGO_Color 2.png"; sourceTree = "<group>"; };
+		AF9F69291BEF3334007C6633 /* IC Mobile App */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "IC Mobile App"; path = "../../../Desktop/IC Mobile App"; sourceTree = "<group>"; };
 		B58C557A1BEEFB6900DF31DF /* Island Corps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Island Corps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58C557D1BEEFB6A00DF31DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B58C557F1BEEFB6A00DF31DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				B58C55841BEEFB6A00DF31DF /* Assets.xcassets */,
 				B58C55861BEEFB6A00DF31DF /* LaunchScreen.storyboard */,
 				B58C55891BEEFB6A00DF31DF /* Info.plist */,
+				AF9F69291BEF3334007C6633 /* IC Mobile App */,
 			);
 			path = "Island Corps";
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				B58C55851BEEFB6A00DF31DF /* Assets.xcassets in Resources */,
 				B58C55831BEEFB6A00DF31DF /* Main.storyboard in Resources */,
 				AF9F69241BEF12DE007C6633 /* IslandCorps-LOGO_Color 2.png in Resources */,
+				AF9F692A1BEF3334007C6633 /* IC Mobile App in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
