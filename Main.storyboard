@@ -13,35 +13,35 @@
                         <viewControllerLayoutGuide type="bottom" id="tYD-1x-SA4"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="cxJ-OG-5qz">
-                        <rect key="frame" x="0.0" y="0.0" width="400" height="688"/>
+                        <rect key="frame" x="0.0" y="0.0" width="367" height="650"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="um7-l6-oSu">
-                                <rect key="frame" x="123" y="416" width="55" height="30"/>
-                                <state key="normal" title="Sign Up"/>
-                                <connections>
-                                    <segue destination="xII-od-u3O" kind="show" id="N7d-BN-l4W"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="srJ-cJ-5Fh">
-                                <rect key="frame" x="129" y="459" width="42" height="30"/>
+                                <rect key="frame" x="161" y="413" width="42" height="30"/>
                                 <state key="normal" title="Log In"/>
                                 <connections>
                                     <segue destination="qll-2I-wWX" kind="show" id="wzn-nt-pjE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1s-DJ-BIT">
-                                <rect key="frame" x="44" y="521" width="243" height="30"/>
-                                <state key="normal" title="About           travel@islandcorps.org"/>
+                                <rect key="frame" x="75" y="494" width="215" height="30"/>
+                                <state key="normal" title="About    travel@islandcorps.org"/>
                                 <connections>
                                     <segue destination="Jxn-Zd-59N" kind="show" id="Qmj-wC-nh0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="um7-l6-oSu">
+                                <rect key="frame" x="156" y="345" width="55" height="30"/>
+                                <state key="normal" title="Sign Up"/>
+                                <connections>
+                                    <segue destination="xII-od-u3O" kind="show" id="N7d-BN-l4W"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="400" height="688"/>
+                    <size key="freeformSize" width="367" height="650"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lip-uB-AmO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -56,7 +56,7 @@
                         <viewControllerLayoutGuide type="bottom" id="CoW-Ep-LSq"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="NYP-OB-FkD">
-                        <rect key="frame" x="0.0" y="0.0" width="400" height="688"/>
+                        <rect key="frame" x="0.0" y="0.0" width="367" height="650"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VXe-bQ-Jpp">
@@ -82,7 +82,7 @@
                         <viewControllerLayoutGuide type="bottom" id="ocp-wP-Ah9"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="f3e-v0-ipP">
-                        <rect key="frame" x="0.0" y="0.0" width="400" height="688"/>
+                        <rect key="frame" x="0.0" y="0.0" width="367" height="650"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="New Registration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Nz-iJ-YSe">
@@ -115,7 +115,7 @@
                         <viewControllerLayoutGuide type="bottom" id="KLK-hN-v10"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="1Ca-64-oaY">
-                        <rect key="frame" x="0.0" y="0.0" width="400" height="688"/>
+                        <rect key="frame" x="0.0" y="0.0" width="367" height="650"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Calendar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UFm-F6-Fyr">
@@ -141,7 +141,7 @@
                         <viewControllerLayoutGuide type="bottom" id="uKt-y6-LAb"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="1Oq-WR-y4c">
-                        <rect key="frame" x="0.0" y="0.0" width="400" height="688"/>
+                        <rect key="frame" x="0.0" y="0.0" width="367" height="650"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qGC-XN-ecA">
@@ -213,7 +213,7 @@
                         <viewControllerLayoutGuide type="bottom" id="xEj-2J-tm4"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ozk-pv-uhG">
-                        <rect key="frame" x="0.0" y="0.0" width="400" height="688"/>
+                        <rect key="frame" x="0.0" y="0.0" width="367" height="650"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Interests" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zBE-0Q-vv3">
@@ -239,7 +239,7 @@
                         <viewControllerLayoutGuide type="bottom" id="fSL-yk-DO7"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tPM-YT-yTf">
-                        <rect key="frame" x="0.0" y="0.0" width="400" height="688"/>
+                        <rect key="frame" x="0.0" y="0.0" width="367" height="650"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Travel Checklist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fKd-hI-k6F">
@@ -265,7 +265,7 @@
                         <viewControllerLayoutGuide type="bottom" id="p0S-26-sMf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="EDb-G0-0XI">
-                        <rect key="frame" x="0.0" y="0.0" width="400" height="688"/>
+                        <rect key="frame" x="0.0" y="0.0" width="367" height="650"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sponsors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yne-Pt-Xxb">
@@ -291,7 +291,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Frr-t9-8Jd"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Rj8-O0-1ZS">
-                        <rect key="frame" x="0.0" y="0.0" width="400" height="688"/>
+                        <rect key="frame" x="0.0" y="0.0" width="367" height="650"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Map" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VVA-yU-7d6">
@@ -317,7 +317,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Ouh-m3-jHw"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="cDQ-qX-zu4">
-                        <rect key="frame" x="0.0" y="0.0" width="400" height="688"/>
+                        <rect key="frame" x="0.0" y="0.0" width="367" height="650"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Weather" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g17-US-Oqp">
@@ -343,7 +343,7 @@
                         <viewControllerLayoutGuide type="bottom" id="s0f-1j-rDs"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Cw4-Wb-nsM">
-                        <rect key="frame" x="0.0" y="0.0" width="400" height="688"/>
+                        <rect key="frame" x="0.0" y="0.0" width="367" height="650"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Inbox" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dlG-l6-Jyv">
@@ -369,7 +369,7 @@
                         <viewControllerLayoutGuide type="bottom" id="a1r-Ou-0cL"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="zlG-GQ-791">
-                        <rect key="frame" x="0.0" y="0.0" width="400" height="688"/>
+                        <rect key="frame" x="0.0" y="0.0" width="367" height="650"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Traveler Log In" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eR2-VK-PG8">
