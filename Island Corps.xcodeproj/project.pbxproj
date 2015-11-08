@@ -101,12 +101,12 @@
 		B58C557C1BEEFB6900DF31DF /* Island Corps */ = {
 			isa = PBXGroup;
 			children = (
-				B5FA94741BEF7D60006ED420 /* Main.storyboard */,
 				B58C557D1BEEFB6A00DF31DF /* AppDelegate.swift */,
+				B5FA94741BEF7D60006ED420 /* Main.storyboard */,
+				B58C55861BEEFB6A00DF31DF /* LaunchScreen.storyboard */,
 				AF9F69231BEF12DE007C6633 /* IslandCorps-LOGO_Color 2.png */,
 				B58C557F1BEEFB6A00DF31DF /* ViewController.swift */,
 				B58C55841BEEFB6A00DF31DF /* Assets.xcassets */,
-				B58C55861BEEFB6A00DF31DF /* LaunchScreen.storyboard */,
 				B58C55891BEEFB6A00DF31DF /* Info.plist */,
 				AF9F69291BEF3334007C6633 /* IC Mobile App */,
 			);
