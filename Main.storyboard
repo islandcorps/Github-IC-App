@@ -17,8 +17,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="srJ-cJ-5Fh">
-                                <rect key="frame" x="161" y="413" width="42" height="30"/>
-                                <state key="normal" title="Log In"/>
+                                <rect key="frame" x="129" y="416" width="101" height="30"/>
+                                <state key="normal" title="Traveler Log In"/>
                                 <connections>
                                     <segue destination="qll-2I-wWX" kind="show" id="wzn-nt-pjE"/>
                                 </connections>
@@ -45,7 +45,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lip-uB-AmO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="273" y="399"/>
+            <point key="canvasLocation" x="272.5" y="399"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jXs-Gc-xRL">
@@ -396,6 +396,12 @@
             <point key="canvasLocation" x="965" y="537"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="IslandCorps-LOGO_Color 2.png" width="2100" height="2100"/>
+        <image name="hammock.png" width="3264" height="2448"/>
+        <image name="palm-shore.png" width="2448" height="2448"/>
+        <image name="pool.png" width="3872" height="2592"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="byc-4k-nUi"/>
     </inferredMetricsTieBreakers>
